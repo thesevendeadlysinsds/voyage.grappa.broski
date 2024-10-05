@@ -1,0 +1,142 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #444;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        thead th {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            font-size: 18px;
+        }
+        tbody tr {
+            border-bottom: 1px solid #ddd;
+        }
+        tbody tr:last-child {
+            border-bottom: none;
+        }
+        tbody td {
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        tbody img {
+            max-width: 100%; /* Limite la largeur de l'image à celle du conteneur */
+            max-height: 100px; /* Hauteur maximale de l'image */
+            border-radius: 10px; /* Coins arrondis */
+            object-fit: contain; /* Ajuste l'image pour qu'elle soit entièrement visible */
+            object-position: top; /* Positionne l'image en haut du conteneur */
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        #comedian-image1 {
+            cursor: pointer;
+        }
+        #submit-button {
+            width: 100px;
+            background-color: #007BFF; /* Couleur de fond */
+            color: white; /* Couleur du texte */
+            border: none; /* Supprime la bordure */
+            padding: 15px 0px; /* Espacement interne */
+            text-align: center; /* Centre le texte */
+            text-decoration: none; /* Supprime le soulignement */
+            display: inline-block; /* Pour appliquer le padding correctement */
+            font-size: 16px; /* Taille de la police */
+            margin: 4px 2px; /* Marge autour du bouton */
+            cursor: pointer; /* Curseur de la main au survol */
+            border-radius: 12px; /* Coins arrondis */
+            transition: background-color 0.3s, transform 0.2s; /* Animation */
+        }
+
+        #submit-button:hover {
+            background-color: #0056b3; /* Couleur au survol */
+            transform: scale(1.05); /* Agrandit légèrement le bouton */
+        }
+
+        #submit-button:active {
+            background-color: #004080; /* Couleur lorsqu'on clique */
+            transform: scale(0.95); /* Réduit légèrement le bouton */
+        }
+        #search-comedian {
+            width: 100px;
+            background-color: #007BFF; /* Couleur de fond */
+            color: white; /* Couleur du texte */
+            border: none; /* Supprime la bordure */
+            padding: 15px 0px; /* Espacement interne */
+            text-align: center; /* Centre le texte */
+            text-decoration: none; /* Supprime le soulignement */
+            display: inline-block; /* Pour appliquer le padding correctement */
+            font-size: 16px; /* Taille de la police */
+            margin: 4px 2px;  /*Marge autour du bouton */
+            cursor: pointer; /* Curseur de la main au survol */
+            border-radius: 12px; /* Coins arrondis */
+            transition: background-color 0.3s, transform 0.2s; /* Animation */
+        }
+
+        #search-comedian:hover {
+            background-color: #0056b3; /* Couleur au survol */
+            transform: scale(1.05); /* Agrandit légèrement le bouton */
+        }
+
+        #search-comedian:active {
+            background-color: #004080; /* Couleur lorsqu'on clique */
+            transform: scale(0.95); /* Réduit légèrement le bouton */
+        }
+        #max-comedians-input {
+            width: 180px; /* Prend toute la largeur disponible */
+            padding: 12px 20px; /* Espacement interne */
+            margin: 8px 0; /* Marge autour de l'input */
+            border: 2px solid #007BFF; /* Bordure */
+            border-radius: 5px; /* Coins arrondis */
+            font-size: 16px; /* Taille de la police */
+            box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur totale */
+            transition: border-color 0.3s; /* Animation pour la bordure */
+        }
+
+        #max-comedians-input:focus {
+            border-color: #0056b3; /* Couleur de la bordure au focus */
+            outline: none; /* Supprime le contour par défaut */
+        }
+        #rank-input {
+            width: 180px; /* Prend toute la largeur disponible */
+            padding: 12px 20px; /* Espacement interne */
+            margin: 8px 0; /* Marge autour de l'input */
+            border: 2px solid #007BFF; /* Bordure */
+            border-radius: 5px; /* Coins arrondis */
+            font-size: 16px; /* Taille de la police */
+            box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur totale */
+            transition: border-color 0.3s; /* Animation pour la bordure */
+        }
+
+        #rank-input:focus {
+            border-color: #0056b3; /* Couleur de la bordure au focus */
+            outline: none; /* Supprime le contour par défaut */
+        }
+        #bresilien {
+            cursor: pointer;
+        }
